@@ -27,10 +27,6 @@ class App extends Component {
             <Route exact path="/">
               <Login />
             </Route>
-            <Route path="/content" component={Content} />
-            <Route path="/pagination">
-              <Pagination />
-            </Route>
             <Route path="/ganti-pass">
               <GantiPass />
             </Route>
@@ -67,6 +63,11 @@ class App extends Component {
             </Route>
             <Route path="/home">
               <Landing />
+            </Route>
+
+            <Route path="/content" component={Content} />
+            <Route path="/pagination">
+              <Pagination />
             </Route>
           </Switch>
         </div>
