@@ -18,7 +18,7 @@ class NavbarComponent extends Component {
     console.log(this.props.user);
 
     if (error) {
-      return <Redirect to="/login" />;
+      return <Redirect to="/" />;
     }
     return (
       <Navbar bg="light" variant="light" className="border">
