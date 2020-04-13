@@ -51,8 +51,7 @@ class login extends Component {
     if (resData.length !== 0) {
       if (resData.statLogin === true) {
         window.localStorage.setItem("token", resData.token);
-        // window.location.href = `${FE}/home`;
-        return <Link to="/home" />;
+        window.location.href = `${FE}/home`;
       } else if (resData.statUser === false) inValidUser = true;
       else if (resData.statPass === false) inValidPass = true;
     }
