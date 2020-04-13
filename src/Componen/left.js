@@ -63,7 +63,7 @@ class Content extends Component {
 
   Logout = () => {
     localStorage.removeItem("token");
-    window.location.href = `${FE}/login`;
+    window.location.href = `${FE}/`;
   };
 
   render() {
