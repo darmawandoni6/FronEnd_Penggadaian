@@ -44,14 +44,14 @@ class login extends Component {
     const resData = this.props.resLogin.data;
 
     if (data.length !== 0) {
-      window.location.href = `${FE}/home/`;
+      window.location.href = `${FE}/home`;
     }
     let inValidUser = false;
     let inValidPass = false;
     if (resData.length !== 0) {
       if (resData.statLogin === true) {
         window.localStorage.setItem("token", resData.token);
-        window.location.href = `${FE}/home/`;
+        window.location.href = `${FE}/home`;
         // return <Redirect to="/home" />;
       } else if (resData.statUser === false) inValidUser = true;
       else if (resData.statPass === false) inValidPass = true;
