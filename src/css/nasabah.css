@@ -1,0 +1,23 @@
+.action {
+  width: 140px;
+}
+
+.div-action {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.view {
+  color: white;
+  background-color: rgb(5, 134, 48);
+}
+
+.view-Barang {
+  color: white;
+  background-color: rgb(13, 144, 195);
+  cursor: pointer;
+}
+
+.view-Barang:hover {
+  background-color: rgb(17, 157, 212);
+}
