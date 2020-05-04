@@ -1,5 +1,5 @@
 # Penggadaian
-Aplikasi dibuat berdasarkan Aplikasi berbasis dekstop dengan bahasa pemograman C# [Link Repositori](https://github.com/darmawandoni6/pegadaian_dekstop).
+Aplikasi dibuat berdasarkan Aplikasi berbasis dekstop dengan bahasa pemograman C# [Link Repositori](https://github.com/darmawandoni6/pegadaian_dekstop). [BackEnd Repositori](https://github.com/darmawandoni6/backEnd-Pegadaian)
 
 ## Link Website
 [https://bit.ly/2JIfQfU](https://bit.ly/2JIfQfU)
